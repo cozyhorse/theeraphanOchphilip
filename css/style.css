@@ -71,6 +71,8 @@ body{
 	background-color: rgb(174, 95, 248);
 }
 
+
+/* Multibox start */
 .multiBoxWrapper{
 	width: 100%;
 	height: 42.5rem;
@@ -89,16 +91,39 @@ grid-area:/1-target-start-row
           /3"target-rows"
           /10"row-stretch */
 
+
+/* box-settings */
 .miniBox{
 	width: 20.875rem;
 	height: 21.25rem;
 	background-color: rgb(228, 52, 87, 0.45);
 	border: 1px solid black;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem;
+	text-align: center;
+	
 }
+
+.miniBox span{
+	color: black;
+	justify-self: flex-start;
+	align-self: flex-start;
+}
+.miniBox h2{
+	width: 100%;
+}
+
+
 
 .miniBox-1{
 	background-color: #C7DDEA ;
 	grid-area: 1/1/1/2;
+	
+	
+
 	
 }
 .miniBox-2{
@@ -124,6 +149,8 @@ grid-area:/1-target-start-row
 	grid-area: 2/3/2/4;
 }
 
+
+
 .top{
 	width: 100%;
 	height: 5rem;
@@ -135,6 +162,21 @@ grid-area:/1-target-start-row
 .span-text{
 	font-size: 1.3rem;
 }
+
+.section-span{
+	font-size: 2rem;
+}
+
 .fa-chevron-up{
 	font-size: 1.2rem;
 }
+
+.footer{
+	width: 100%;
+	height: 15rem;
+	background-color: #777574;
+	font-size: 1.8rem;
+	text-align: center;
+}
+
+
