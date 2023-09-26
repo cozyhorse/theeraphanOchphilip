@@ -124,4 +124,17 @@ grid-area:/1-target-start-row
 	grid-area: 2/3/2/4;
 }
 
+.top{
+	width: 100%;
+	height: 5rem;
+	background-color:#A9A19E ;
+	
 
+}
+
+.span-text{
+	font-size: 1.3rem;
+}
+.fa-chevron-up{
+	font-size: 1.2rem;
+}
