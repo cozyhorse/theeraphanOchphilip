@@ -1,5 +1,57 @@
-*{ 
-    margin: 0;
-    padding: 0; 
-    box-sizing:border-box; 
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.headerWrapper {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-template-rows: repeat(6, 1fr);
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+}
+
+.hCB {
+	grid-area: 1 / 1 / 7 / 4;
+	background-color: red;
+}
+
+.hCS1 {
+	grid-area: 1 / 4 / 4 / 7;
+	background-color: blue;
+}
+
+.hCS2 {
+	grid-area: 4 / 4 / 7 / 7;
+	background-color: yellow;
+}
+
+.navBar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: aqua;
+	padding: 0.5rem;
+}
+
+.navBar ul {
+	list-style: none;
+	display: flex;
+}
+
+.navBar li {
+	margin-right: 1rem;
+}
+
+.navBar a {
+	text-decoration: none;
+}
+
+.mainContentWrapper {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-template-rows: repeat(6, 1fr);
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
 }
