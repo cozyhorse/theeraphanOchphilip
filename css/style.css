@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 }
 
-body{
+body {
 	display: flex;
 	flex-direction: column;
 	max-width: 62.625rem;
@@ -12,10 +12,9 @@ body{
 	align-items: center;
 	margin: auto;
 	background-color: #4d4c4c;
-	
-
 }
 
+/* Grid-container */
 .headerWrapper {
 	display: grid;
 	grid-template-columns: repeat(6, 1fr);
@@ -23,30 +22,34 @@ body{
 	grid-column-gap: 0px;
 	grid-row-gap: 0px;
 	width: 100%;
+	height: 34rem;
+	background-color: #fdcccc;
 }
 
-.hCB {
+/* Grid-items */
+.headerContentBig {
 	grid-area: 1 / 1 / 7 / 4;
-	background-color: red;
+	background-color: #c7ddea;
 }
 
-.hCS1 {
+.headerContentSmall-1 {
 	grid-area: 1 / 4 / 4 / 7;
-	background-color: blue;
+	background-color: #f17949;
 }
 
-.hCS2 {
+.headerContentSmall-2 {
 	grid-area: 4 / 4 / 7 / 7;
-	background-color: yellow;
+	background-color: #ffb939;
 }
 
 .navBar {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background-color: aqua;
+	background-color: #ebebeb;
 	padding: 0.5rem;
 	width: 100%;
+	height: 3rem;
 }
 
 .navBar ul {
@@ -75,36 +78,30 @@ body{
 }
 
 /* mainContent */
-.mainContent-1{
-	background-color: #A9A19E;
+.mainContent-1 {
+	background-color: #a9a19e;
 	grid-area: 1/1/4/7;
-
 }
 
-.mainContent-2{
-	background-color: #FAB131;
+.mainContent-2 {
+	background-color: #fab131;
 	grid-area: 4/1/7/7;
 }
 
 /* mainContent */
 
 /* Multibox start */
-.multiBoxWrapper{
+.multiBoxWrapper {
 	width: 100%;
 	height: 42.5rem;
-	background-color: rgb(250, 168, 159, 0.30);
+	background-color: rgb(250, 168, 159, 0.3);
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: repeat(3, 1fr);
-
-
-
 }
 
-
-
 /* box-settings */
-.miniBox{
+.miniBox {
 	width: 20.875rem;
 	height: 21.25rem;
 	background-color: rgb(228, 52, 87, 0.45);
@@ -116,16 +113,16 @@ body{
 	text-align: center;
 }
 
-.miniBox span{
-	font-family: 'Frank Ruhl Libre', serif;
+.miniBox span {
+	font-family: "Frank Ruhl Libre", serif;
 	color: rgb(0, 0, 0, 0.4);
 	align-self: flex-start;
 }
-.miniBox h2{
+.miniBox h2 {
 	width: 100%;
 	margin-right: 2rem;
 	font-size: 1.063rem;
-	font-family: 'Fira Sans', sans-serif;
+	font-family: "Fira Sans", sans-serif;
 	font-weight: 800;
 }
 
@@ -139,80 +136,67 @@ grid-area:/1-target-start-row
 		  se mainContent-1&2 för referens
 		  */
 
-
-
-
-.miniBox-1{
-	background-color: #C7DDEA ;
+.miniBox-1 {
+	background-color: #c7ddea;
 	grid-area: 1/1/1/2;
-
 }
 
-.miniBox-1 p{
+.miniBox-1 p {
 	font-size: 2.813rem;
-
 }
-.miniBox-2{
+.miniBox-2 {
 	background-color: mintcream;
 	grid-area: 1/2/1/3;
-
 }
-.miniBox-3{
-	background-color: #EBEBEB;
-	grid-area: 1/3/1/4
-
+.miniBox-3 {
+	background-color: #ebebeb;
+	grid-area: 1/3/1/4;
 }
-.miniBox-4{
+.miniBox-4 {
 	background-color: mintcream;
 	grid-area: 2/1/2/2;
 }
-.miniBox-5{
-	background-color: #F17949;
+.miniBox-5 {
+	background-color: #f17949;
 	grid-area: 2/2/3/3;
 }
-.miniBox-6{
+.miniBox-6 {
 	background-color: mintcream;
 	grid-area: 2/3/2/4;
 }
 /* box-settings */
 
 /* button */
-.top{
+.top {
 	width: 100%;
 	height: 5rem;
-	background-color:#A9A19E ;
+	background-color: #a9a19e;
 	border-style: none;
-
-
 }
-.span-text{
+.span-text {
 	font-size: 1.3rem;
-	font-family: 'Fira Sans', sans-serif;
+	font-family: "Fira Sans", sans-serif;
 	font-weight: 900;
 	color: rgb(0, 0, 0, 0.7);
 }
 
-.section-span{
+.section-span {
 	font-size: 2rem;
 }
 
-.fa-chevron-up{
+.fa-chevron-up {
 	font-size: 1.2rem;
 }
 /* button */
 
-
 /* Footer */
-.footer{
+.footer {
 	display: flex;
 	width: 100%;
 	height: 15rem;
 	background-color: #777574;
-	color:rgb(0, 0, 0, 0.7);;
+	color: rgb(0, 0, 0, 0.7);
 	font-size: 1.8rem;
 	justify-content: center;
 	align-items: center;
-
 }
-
-
