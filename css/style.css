@@ -93,10 +93,13 @@ body {
 
 /* main-middle-card */
 .cardwith-picture {
-	background-color: #f17949;
+	background-color: rgba(255, 255, 255, 1);
 	width: 16rem;
 	height: 19.25rem;
 	gap: 1rem;
+	display: flex;
+	justify-content: center;
+	
 	
 }
 
@@ -106,10 +109,51 @@ body {
 	display: flex;
 	gap: 1.5rem;
 	margin: auto;
+	overflow: visible;
 	
+}
 
+.imagebox{
+	width: 13.375rem;
+	height: 8.625rem;
+	overflow: hidden;
+	justify-content: center;
+	align-items:center;
+	display: flex;
+	margin-top: -1.5rem;
+
+	
+}
+
+.box-img{
+	height: auto;
+	object-fit: cover;
 
 }
+.ib-1{
+	background-color: rgba(199, 221, 234, 1);
+}
+
+.boxImage-1{
+	width: 4rem;
+	margin-top: 3rem;
+}
+.ib-2{
+	background-color: rgba(250, 177, 49, 1);
+}
+
+.ib-3{
+	background-color: rgba(238, 146, 126, 1);
+}
+.boxImage-2{
+	width: 5.8rem;
+	margin-top: 18rem;
+}
+.boxImage-3{
+	width: 7rem;
+	margin-top: 12.8rem;
+}
+
 
 
 
@@ -200,18 +244,15 @@ grid-area:/1-target-start-row
 	border-style: none;
 }
 .span-text {
-	font-size: 1.3rem;
+	font-size: 1.4rem;
 	font-family: "Fira Sans", sans-serif;
 	font-weight: 900;
 	color: rgb(0, 0, 0, 0.7);
 }
 
-.section-span {
-	font-size: 2rem;
-}
 
 .fa-chevron-up {
-	font-size: 1.2rem;
+	font-size: 1.8rem;
 }
 /* button */
 
