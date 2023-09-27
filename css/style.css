@@ -90,6 +90,32 @@ body {
 
 /* mainContent */
 
+
+/* main-middle-card */
+.cardwith-picture {
+	background-color: #f17949;
+	width: 16rem;
+	height: 19.25rem;
+	gap: 1rem;
+	
+}
+
+.card-divider{
+	
+	grid-area: 3/1/5/7;
+	display: flex;
+	gap: 1.5rem;
+	margin: auto;
+	
+
+
+}
+
+
+
+
+/* main-middle-card */
+
 /* Multibox start */
 .multiBoxWrapper {
 	width: 100%;
