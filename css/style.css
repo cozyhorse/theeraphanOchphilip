@@ -196,6 +196,12 @@ body {
 	font-weight: 800;
 }
 
+.section-span{
+	font-size: 2.3rem;
+	font-family: 'Frank Ruhl Libre', serif;
+	padding: 0.4rem;
+}
+
 /* grid-area construct!
 grid-area:/1-target-start-row
           /1-startpostiton-on chosen row
