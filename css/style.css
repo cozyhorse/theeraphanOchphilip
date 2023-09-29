@@ -1,96 +1,96 @@
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-	display: flex;
-	flex-direction: column;
-	max-width: 62.625rem;
-	justify-content: center;
-	align-items: center;
-	margin: auto;
-	background-color: #4d4c4c;
+    display: flex;
+    flex-direction: column;
+    max-width: 62.625rem;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: #4d4c4c;
 }
 
 /* Grid-container */
 .headerWrapper {
-	display: grid;
-	grid-template-columns: repeat(6, 1fr);
-	grid-template-rows: repeat(6, 1fr);
-	grid-column-gap: 0px;
-	grid-row-gap: 0px;
-	width: 100%;
-	height: 34rem;
-	background-color: #fdcccc;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 100%;
+    height: 34rem;
+    background-color: #fdcccc;
 }
 
 /* First Box */
 
 .headerContentBig-text {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	padding: 0.5rem;
-	text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    text-align: center;
 }
 
 .headerContentSection-1 {
-	height: 50%;
+    height: 50%;
 }
 
 .family-container {
-	display: flex;
-	justify-content: end;
-	width: 100%;
-	height: 50%;
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    height: 50%;
 }
 
 .family-image {
-	width: 16rem;
-	height: auto;
-	align-self: end;
+    width: 16rem;
+    height: auto;
+    align-self: end;
 }
 
 /* Join button */
 .join-now-btn {
-	width: 8.188rem;
-	height: 2.438rem;
-	border-radius: 6.25rem;
-	align-self: flex-start;
-	box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.56);
-	border-style: none;
-	margin-left: 5.9rem;
-	font-family: "Fira Sans", sans-serif;
+    width: 8.188rem;
+    height: 2.438rem;
+    border-radius: 6.25rem;
+    align-self: flex-start;
+    box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.56);
+    border-style: none;
+    margin-left: 5.9rem;
+    font-family: "Fira Sans", sans-serif;
 }
 
 .headerContentBig-text1 {
-	font-family: "Frank Ruhl Libre", serif;
-	font-weight: 900;
-	font-size: 2.8rem;
-	line-height: 2.8rem;
-	letter-spacing: -0.05rem;
-	text-align: left;
-	/* margin-top: 12rem; */
-	width: 17rem;
-	margin-top: 3rem;
+    font-family: "Frank Ruhl Libre", serif;
+    font-weight: 900;
+    font-size: 2.8rem;
+    line-height: 2.8rem;
+    letter-spacing: -0.05rem;
+    text-align: left;
+    /* margin-top: 12rem; */
+    width: 17rem;
+    margin-top: 3rem;
 }
 
 .headerContentBig-text2 {
-	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-	font-weight: 500;
-	font-size: 0.9rem;
-	line-height: 1.5rem;
-	text-align: left;
-	width: 16rem;
-	height: 50%;
-	margin-top: 1rem;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-weight: 500;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    text-align: left;
+    width: 16rem;
+    height: 50%;
+    margin-top: 1rem;
 }
 
 .white-text {
-	color: #ffffff;
+    color: #ffffff;
 }
 
 /* .family-Picture {
@@ -104,285 +104,318 @@ body {
 /* Header Content Small */
 
 .headerContentSmall-1 {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	padding: 0.5rem;
-	text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    text-align: center;
 }
 
 .headerContentSmall-2 {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	padding: 0.5rem;
-	text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    text-align: center;
 }
 
 .call-to-action {
-	color: #ffffff;
-	font-family: "Frank Ruhl Libre", serif;
-	font-size: 2rem;
+    color: #ffffff;
+    font-family: "Frank Ruhl Libre", serif;
+    font-size: 2rem;
 }
+
 /* Grid inside container */
 .headerContentBig {
-	grid-area: 1 / 1 / 7 / 4;
-	background-color: #c7ddea;
+    grid-area: 1 / 1 / 7 / 4;
+    background-color: #c7ddea;
 }
 
 .headerContentSmall-1 {
-	grid-area: 1 / 4 / 4 / 7;
-	background-color: #f17949;
+    grid-area: 1 / 4 / 4 / 7;
+    background-color: #f17949;
 }
 
 .headerContentSmall-2 {
-	grid-area: 4 / 4 / 7 / 7;
-	background-color: #ffb939;
+    grid-area: 4 / 4 / 7 / 7;
+    background-color: #ffb939;
 }
 
 /* NAV */
 
 .navBar {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: #ebebeb;
-	padding: 0.5rem;
-	width: 100%;
-	height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ebebeb;
+    padding: 0.5rem;
+    width: 100%;
+    height: 3rem;
 }
 
 .navBar ul {
-	list-style: none;
-	display: flex;
+    list-style: none;
+    display: flex;
 }
 
 .navBar li {
-	margin: 5rem;
+    margin: 5rem;
 }
 
 .navBar a {
-	text-decoration: none;
-	color: #000000;
+    text-decoration: none;
+    color: #000000;
 }
 
 /* mainContent-container-settings */
 .mainContentWrapper {
-	display: grid;
-	grid-template-columns: repeat(6, 1fr);
-	grid-template-rows: repeat(6, 1fr);
-	grid-column-gap: 0px;
-	grid-row-gap: 0px;
-	width: 100%;
-	height: 80.75rem;
-	background-color: rgb(174, 95, 248);
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 100%;
+    height: 80.75rem;
+    background-color: rgb(174, 95, 248);
 }
 
 /* mainContent */
 .mainContent-1 {
-	background-color: #a9a19e;
-	grid-area: 1/1/4/7;
+    background-color: #a9a19e;
+    grid-area: 1/1/4/7;
 }
 
 .mainContent-2 {
-	background-color: #fab131;
-	grid-area: 4/1/7/7;
+    background-color: #fab131;
+    grid-area: 4/1/7/7;
 }
 
 /* Main Content Up Text */
 
 .mainContent-1 {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	padding: 1rem;
-	text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    text-align: left;
+
 }
 
 .mainContent-1-text1 {
-	font-family: "Frank Ruhl Libre", serif;
-	font-weight: 900;
-	font-size: 2.8rem;
-	width: auto;
-	height: auto;
-	line-height: 2.8rem;
-	padding-right: 10rem;
-	margin-top: -18rem;
-	color: #ffffff;
+    font-family: "Frank Ruhl Libre", serif;
+    font-weight: 900;
+    font-size: 2.8rem;
+    width: auto;
+    height: auto;
+    line-height: 2.8rem;
+    padding-right: 10rem;
+    margin-top: -13.5rem;
+    color: #ffffff;
+    /* gjorde lådan till flex //Mo */
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+/* Button settings */
+.mainContent-btn {
+    width: 8.188rem;
+    height: 2.438rem;
+    justify-self: center;
+    margin-top: 1rem;
+    border-radius: 6.25rem;
+    box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.56);
+    font-family: "Fira Sans", sans-serif;
+	font-size: 0.625rem;
+	line-height: 0.75rem;
+	font-weight: 700;
+	text-align: center;
+	border-style: none;
+
 }
 
 .mainContent-1-text2 {
-	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-	font-weight: 500;
-	font-size: 0.9rem;
-	width: 17.5rem;
-	height: 16;
-	line-height: 1.5rem;
-	margin-top: -13.5rem;
-	color: #000000;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-weight: 500;
+    font-size: 0.9rem;
+    width: 17.5rem;
+    height: 16;
+    line-height: 1.5rem;
+    margin-top: -13.5rem;
+    color: #000000;
 }
+
+
 
 /* Main Content Down Text */
 
 .mainContent-2 {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	padding: 1rem;
-	text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    text-align: center;
 }
 
 .about-us {
-	font-family: "Frank Ruhl Libre", serif;
-	font-weight: 900;
-	font-size: 2.8rem;
-	line-height: 2.8rem;
-	letter-spacing: -2%;
-	margin-top: 9rem;
-	margin-bottom: 2.8rem;
-	color: #ffffff;
+    font-family: "Frank Ruhl Libre", serif;
+    font-weight: 900;
+    font-size: 2.8rem;
+    line-height: 2.8rem;
+    letter-spacing: -2%;
+    margin-top: 9rem;
+    margin-bottom: 2.8rem;
+    color: #ffffff;
 }
+
 .mainContent-2-text {
-	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-	font-weight: 500;
-	font-size: 0.9rem;
-	width: 27.9rem;
-	height: 17.5rem;
-	line-height: 1.5rem;
-	color: #000000;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-weight: 500;
+    font-size: 0.9rem;
+    width: 27.9rem;
+    height: 17.5rem;
+    line-height: 1.5rem;
+    color: #000000;
 }
+
 /* main-middle-card */
 .cardwith-picture {
-	background-color: rgba(255, 255, 255, 1);
-	width: 16rem;
-	height: auto; /*19.25rem old height - changed to auto /Philip*/
-	gap: 1rem;
-	display: flex;
-	justify-content: center;
-	/* Added flex-direction: column;
+    background-color: rgba(255, 255, 255, 1);
+    width: 16rem;
+    height: auto;
+    /*19.25rem old height - changed to auto /Philip*/
+    gap: 1rem;
+    display: flex;
+    justify-content: center;
+    /* Added flex-direction: column;
 	align-items: center;
 	text-align: center;/Philip */
-	flex-direction: column;
-	align-items: center;
-	text-align: center;
-	border-radius: 0.25rem;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 0.25rem;
 }
 
 .card-divider {
-	grid-area: 3/1/5/7;
-	display: flex;
-	gap: 1.5rem;
-	margin: auto;
-	overflow: visible;
+    grid-area: 3/1/5/7;
+    display: flex;
+    gap: 1.5rem;
+    margin: auto;
+    overflow: visible;
 }
 
 .imagebox {
-	width: 13.375rem;
-	height: 8.625rem;
-	overflow: hidden;
-	justify-content: center;
-	align-items: center;
-	display: flex;
-	margin-top: -1.5rem;
-	border-radius: 0.25rem;
+    width: 13.375rem;
+    height: 8.625rem;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: -1.5rem;
+    border-radius: 0.25rem;
 }
 
 .box-img {
-	height: auto;
-	object-fit: cover;
+    height: auto;
+    object-fit: cover;
 }
+
 .ib-1 {
-	background-color: rgba(199, 221, 234, 1);
+    background-color: rgba(199, 221, 234, 1);
 }
 
 .boxImage-1 {
-	width: 4rem;
-	margin-top: 3rem;
+    width: 4rem;
+    margin-top: 3rem;
 }
+
 .ib-2 {
-	background-color: rgba(250, 177, 49, 1);
+    background-color: rgba(250, 177, 49, 1);
 }
 
 .ib-3 {
-	background-color: rgba(238, 146, 126, 1);
+    background-color: rgba(238, 146, 126, 1);
 }
+
 .boxImage-2 {
-	width: 5.8rem;
-	margin-top: 18rem;
+    width: 5.8rem;
+    margin-top: 18rem;
 }
+
 .boxImage-3 {
-	width: 7rem;
-	margin-top: 12.8rem;
+    width: 7rem;
+    margin-top: 12.8rem;
 }
 
 /* main-middle-card Text */
 
 .middle-header {
-	font-family: "Frank Ruhl Libre", serif;
-	font-weight: 700;
-	font-size: 1rem;
-	line-height: 1.25rem;
-	margin-top: 0.7rem;
-	color: #000000;
+    font-family: "Frank Ruhl Libre", serif;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    margin-top: 0.7rem;
+    color: #000000;
 }
 
 .middle-header-text {
-	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-	font-weight: 700;
-	font-size: 0.6rem;
-	width: 12rem;
-	height: 8rem;
-	line-height: 1.1rem;
-	margin-top: -0.9rem;
-	color: #00000066;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-weight: 700;
+    font-size: 0.6rem;
+    width: 12rem;
+    height: 8rem;
+    line-height: 1.1rem;
+    margin-top: -0.9rem;
+    color: #00000066;
 }
 
 /* Multibox start */
 .multiBoxWrapper {
-	width: 100%;
-	height: 42.5rem;
-	background-color: rgb(250, 168, 159, 0.3);
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: repeat(3, 1fr);
+    width: 100%;
+    height: 42.5rem;
+    background-color: rgb(250, 168, 159, 0.3);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
 }
 
 /* box-settings */
 .miniBox {
-	width: 20.875rem;
-	height: 21.25rem;
-	background-color: rgb(228, 52, 87, 0.45);
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-	padding: 0.5rem;
-	text-align: center;
-	
-	
+    width: 20.875rem;
+    height: 21.25rem;
+    background-color: rgb(228, 52, 87, 0.45);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    text-align: center;
+
+
 }
 
 .miniBox span {
-	font-family: "Frank Ruhl Libre", serif;
-	color: rgb(0, 0, 0, 0.4);
-	align-self: flex-start;
+    font-family: "Frank Ruhl Libre", serif;
+    color: rgb(0, 0, 0, 0.4);
+    align-self: flex-start;
 }
+
 .miniBox h2 {
-	width: 100%;
-	margin-right: 2rem;
-	font-size: 1.063rem;
-	font-family: "Fira Sans", sans-serif;
-	font-weight: 800;
+    width: 100%;
+    margin-right: 2rem;
+    font-size: 1.063rem;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 800;
 }
 
 .section-span {
-	font-size: 2.3rem;
-	font-family: "Frank Ruhl Libre", serif;
-	padding: 0.4rem;
+    font-size: 2.3rem;
+    font-family: "Frank Ruhl Libre", serif;
+    padding: 0.4rem;
 }
 
 /* grid-area construct!
@@ -396,62 +429,70 @@ grid-area:/1-target-start-row
 		  */
 
 .miniBox-1 {
-	background-color: #c7ddea;
-	grid-area: 1/1/1/2;
+    background-color: #c7ddea;
+    grid-area: 1/1/1/2;
 }
 
 .miniBox-1 p {
-	font-size: 2.813rem;
+    font-size: 2.813rem;
 }
+
 .miniBox-2 {
-	background-color: mintcream;
-	grid-area: 1/2/1/3;
+    background-color: mintcream;
+    grid-area: 1/2/1/3;
 }
+
 .miniBox-3 {
-	background-color: #ebebeb;
-	grid-area: 1/3/1/4;
+    background-color: #ebebeb;
+    grid-area: 1/3/1/4;
 }
+
 .miniBox-4 {
-	background-color: mintcream;
-	grid-area: 2/1/2/2;
+    background-color: mintcream;
+    grid-area: 2/1/2/2;
 }
+
 .miniBox-5 {
-	background-color: #f17949;
-	grid-area: 2/2/3/3;
+    background-color: #f17949;
+    grid-area: 2/2/3/3;
 }
+
 .miniBox-6 {
-	background-color: mintcream;
-	grid-area: 2/3/2/4;
+    background-color: mintcream;
+    grid-area: 2/3/2/4;
 }
+
 /* box-settings */
 
 /* button */
 .top {
-	width: 100%;
-	height: 5rem;
-	background-color: #a9a19e;
-	border-style: none;
+    width: 100%;
+    height: 5rem;
+    background-color: #a9a19e;
+    border-style: none;
 }
+
 .span-text {
-	font-size: 1.4rem;
-	font-family: "Fira Sans", sans-serif;
-	font-weight: 900;
-	color: rgb(0, 0, 0, 0.7);
+    font-size: 1.4rem;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 900;
+    color: rgb(0, 0, 0, 0.7);
 }
 
 .fa-chevron-up {
-	font-size: 1.8rem;
+    font-size: 1.8rem;
 }
+
 /* button */
 
 /* Footer */
 .footer {
-	display: flex;
-	width: 100%;
-	height: 15rem;
-	background-color: #777574;
-	color: rgb(0, 0, 0, 0.7);
-	font-size: 1.8rem;
-	justify-content: center;
-	align-items: center;
+    display: flex;
+    width: 100%;
+    height: 15rem;
+    background-color: #777574;
+    color: rgb(0, 0, 0, 0.7);
+    font-size: 1.8rem;
+    justify-content: center;
+    align-items: center;
 }
