@@ -5,7 +5,6 @@
 }
 
 body {
-	
 	display: flex;
 	flex-direction: column;
 	max-width: 62.625rem;
@@ -36,41 +35,36 @@ body {
 	align-items: center;
 	padding: 0.5rem;
 	text-align: center;
-	
 }
 
-.headerContentSection-1{
+.headerContentSection-1 {
 	height: 50%;
 }
 
-.family-container{
-	
+.family-container {
 	display: flex;
 	justify-content: end;
 	width: 100%;
 	height: 50%;
-	
 }
 
-.family-image{
+.family-image {
 	width: 16rem;
 	height: auto;
 	align-self: end;
-	
 }
 
 /* Join button */
-.join-now-btn{
+.join-now-btn {
 	width: 8.188rem;
 	height: 2.438rem;
 	border-radius: 6.25rem;
-	align-self:flex-start;
-	box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.56);
-	border-style:none;
+	align-self: flex-start;
+	box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.56);
+	border-style: none;
 	margin-left: 5.9rem;
 	font-family: "Fira Sans", sans-serif;
 }
-
 
 .headerContentBig-text1 {
 	font-family: "Frank Ruhl Libre", serif;
@@ -82,7 +76,6 @@ body {
 	/* margin-top: 12rem; */
 	width: 17rem;
 	margin-top: 3rem;
-	
 }
 
 .headerContentBig-text2 {
@@ -94,8 +87,6 @@ body {
 	width: 16rem;
 	height: 50%;
 	margin-top: 1rem;
-
-
 }
 
 .white-text {
@@ -121,11 +112,6 @@ body {
 	text-align: center;
 }
 
-
-
-
-
-
 .headerContentSmall-2 {
 	display: flex;
 	flex-direction: column;
@@ -134,8 +120,6 @@ body {
 	padding: 0.5rem;
 	text-align: center;
 }
-
-
 
 .call-to-action {
 	color: #ffffff;
@@ -207,7 +191,7 @@ body {
 	grid-area: 4/1/7/7;
 }
 
-/* mainContent */
+/* Main Content Up Text */
 
 .mainContent-1 {
 	display: flex;
@@ -228,11 +212,10 @@ body {
 	padding-right: 10rem;
 	margin-top: -18rem;
 	color: #ffffff;
-
 }
 
 .mainContent-1-text2 {
-	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 	font-weight: 500;
 	font-size: 0.9rem;
 	width: 17.5rem;
@@ -242,14 +225,50 @@ body {
 	color: #000000;
 }
 
+/* Main Content Down Text */
+
+.mainContent-2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem;
+	text-align: center;
+}
+
+.about-us {
+	font-family: "Frank Ruhl Libre", serif;
+	font-weight: 900;
+	font-size: 2.8rem;
+	line-height: 2.8rem;
+	letter-spacing: -2%;
+	margin-top: 9rem;
+	margin-bottom: 2.8rem;
+	color: #ffffff;
+}
+.mainContent-2-text {
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	font-weight: 500;
+	font-size: 0.9rem;
+	width: 27.9rem;
+	height: 17.5rem;
+	line-height: 1.5rem;
+	color: #000000;
+}
 /* main-middle-card */
 .cardwith-picture {
 	background-color: rgba(255, 255, 255, 1);
 	width: 16rem;
-	height: 19.25rem;
+	height: auto; /*19.25rem old height - changed to auto /Philip*/
 	gap: 1rem;
 	display: flex;
 	justify-content: center;
+	/* Added flex-direction: column;
+	align-items: center;
+	text-align: center;/Philip */
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
 }
 
 .card-divider {
@@ -298,7 +317,27 @@ body {
 	margin-top: 12.8rem;
 }
 
-/* main-middle-card */
+/* main-middle-card Text */
+
+.middle-header {
+	font-family: "Frank Ruhl Libre", serif;
+	font-weight: 700;
+	font-size: 1rem;
+	line-height: 1.25rem;
+	margin-top: 0.7rem;
+	color: #000000;
+}
+
+.middle-header-text {
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	font-weight: 700;
+	font-size: 0.6rem;
+	width: 12rem;
+	height: 8rem;
+	line-height: 1.1rem;
+	margin-top: -0.9rem;
+	color: #00000066;
+}
 
 /* Multibox start */
 .multiBoxWrapper {
