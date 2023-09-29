@@ -269,6 +269,7 @@ body {
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
+	border-radius: 0.25rem;
 }
 
 .card-divider {
@@ -287,6 +288,7 @@ body {
 	align-items: center;
 	display: flex;
 	margin-top: -1.5rem;
+	border-radius: 0.25rem;
 }
 
 .box-img {
@@ -360,6 +362,8 @@ body {
 	align-items: center;
 	padding: 0.5rem;
 	text-align: center;
+	
+	
 }
 
 .miniBox span {
